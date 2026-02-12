@@ -8,7 +8,7 @@ try:
         database="resultdb"
     )
 
-    cursor = mydb.cursor(buffered=True)   # IMPORTANT
+    cursor = mydb.cursor(buffered=True)   
 
     roll = input("Enter Student Roll Number: ")
 
